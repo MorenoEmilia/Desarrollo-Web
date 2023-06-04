@@ -111,14 +111,15 @@ h1{
     color:rgb(24, 0, 0);
     font-family: 'DM Serif Display', serif;
     text-align: center;
-    margin-top: 8%;
     font-size: 80px;
 }
+.formYinput{
+    text-align: center;
 
+}
 .formulario label{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    margin-left: 40%;
     font-size: 16px;
 }
 
@@ -129,7 +130,7 @@ h1{
     color: bisque;
     text-align: center;
     background-color: rgb(24, 0, 0);
-    align-content: center;
+    align-items: center;
 }
 
 .pais{
@@ -137,7 +138,8 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     color: bisque;
     background-color: rgb(24, 0, 0);
-    margin-left: 44%;
+    width: 20%;
+    height: 30px;
 }
 
 footer{
