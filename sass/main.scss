@@ -111,31 +111,76 @@ body{
     font-size: 16px;
 }
 .formulario input{
-    width: 100%;
+    width: 50%;
     height: auto;
     font-family:$secondTypo;
     background-color: $colorLetra;
     text-align: center;
     color: $colorTextos;
-    border: none;
-    outline: none;
-    cursor: pointer;
 }
 
 .pais{
-    width: 100%;
+    width: 50%;
     height: auto;
     text-align: center;
     font-family:$secondTypo;
     background-color: $colorLetra;
     color:$colorTextos;
 }
-.pie{
-    text-align: center;
+.footer{
     background-color: $colorLetra;
-    color: $colorTextos;
-    width: 100%;
-    height: auto;
-    font-family: $mainTipo;
+    padding: 80px 0;
     margin-top: 10%;
+
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-links h2{
+    font-size: 50px;
+    color:$colorTextos;
+    font-family: $mainTipo;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid $colorTextos;
+    padding-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer-links h4{
+    font-family: $secondTypo;
+    color: $colorTextos;
+    text-align: center;
+    font-size: 30px;
+}
+.social-link{
+    margin-left: 43%;
+}
+.social-link a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: $colorTextos;
+    text-align: center;
+    line-height:  40px;
+    border-radius: 50%;
+    color: $colorLetra;
+    margin: 0 10px 10px 0;
+    transition: all .5s ease;
+}
+
+.social-link a:hover{
+    background-color: $fondo;
+}
+
+@media(max-widht:991px) {
+    .footer-row{
+        text-align: center;
+    }
+    .footer-links{
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
