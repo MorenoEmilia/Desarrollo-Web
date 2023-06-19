@@ -1,0 +1,23 @@
+.formYinput{
+    text-align: center;
+    .formulario label{
+        text-align: center;
+        font-family:$secondTypo
+        font-size 16px;
+    }
+    .formulario input{
+        width: 100%;
+        height: auto;
+        font-family:$secondTypo
+        $colorTextos
+        text-align center;
+        $colorLetra
+    }
+    .pais{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        font-family:$secondTypo
+        background-color $colorLetra;
+    }
+}

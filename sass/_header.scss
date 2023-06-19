@@ -1,0 +1,27 @@
+header{
+    h1{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        font-family: $mainTipo
+        $colorLetra
+    
+    }
+    .navbarNav{
+        background-color: $colorLetra;
+        .navbarNav{
+            .w-100{
+                background-color: $colorLetra;
+                font-family: $secondTypo;
+                text-align: center;
+                .nav-item{
+                    .nav-link{
+                        color: $colorTextos
+                    }
+                }
+            }
+        }
+    }
+}
+
+
