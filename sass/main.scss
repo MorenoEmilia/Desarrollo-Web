@@ -5,16 +5,15 @@
     width: 100%;
 } 
 
-body{
-    background-color: aqua;
-
-}
-
 @import 'header' ;
 @import 'carrera';
 @import 'form';
 @import 'pages';
 @import 'vars';
+
+body{
+    background-color: $fondo;
+}
 
 .imgOne{
     box-shadow: 0px 0px 30px;
