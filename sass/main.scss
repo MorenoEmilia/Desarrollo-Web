@@ -1,3 +1,9 @@
+$mainTipo: 'DM Serif Display', serif;
+$secondTypo: 'Courier New', Courier, monospace;
+$fondo:rgb(182, 0, 5);
+$colorLetra:rgb(24, 0, 0);
+$colorTextos: bisque;
+
 *{
     margin: 0;
     padding: 0;
@@ -5,11 +11,30 @@
     width: 100%;
 } 
 
-@import 'header' ;
-@import 'carrera';
-@import 'form';
-@import 'pages';
-@import 'vars';
+header{
+    h1{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        font-family: $mainTipo;
+        color: $colorLetra;
+    }
+} 
+
+.navbarNav{
+    background-color: $colorLetra;
+}
+
+.w-100{
+    background-color: $colorLetra;
+    font-family: $secondTypo;
+    text-align: center;
+    color: $colorTextos;
+}
+
+.nav-link{
+    color:$colorTextos;
+}
 
 body{
     background-color: $fondo;
@@ -17,4 +42,100 @@ body{
 
 .imgOne{
     box-shadow: 0px 0px 30px;
+}
+
+.louisCarre{
+    display: grid;
+    grid-template-columns: 
+    repeat(
+        auto-fit,
+        minmax(150px, 1fr)
+    );
+    gap: 30px;
+}
+.louisolo{
+    background-color: $fondo
+    border-radius 8px;
+    width: 50%;
+    height: auto;
+    box-shadow: 0px 0px 30px;
+    margin-left: 5%;
+}
+.texto-encima{
+    width: 100%;
+    height: auto;
+    font-family:$secondTypo;
+    text-align: center;
+    color:$colorTextos;
+}
+.display-3{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    font-family: 'DM Serif Display', serif;
+    color:rgb(24, 0, 0);
+    margin-top: 3%;
+}
+
+.slide{
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 30px;
+}
+
+.containerDos{
+    display: grid;
+    grid-template-columns: 
+    repeat(
+        auto-fit,
+        minmax(150px, 1fr)
+    );
+    gap: 30px;
+}
+.mundo{
+    background-color: $fondo
+    border-radius 8px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 30px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.formYinput{
+    text-align: center;
+}
+.formulario label{
+    text-align: center;
+    font-family:$secondTypo;
+    font-size: 16px;
+}
+.formulario input{
+    width: 100%;
+    height: auto;
+    font-family:$secondTypo;
+    background-color: $colorLetra;
+    text-align: center;
+    color: $colorTextos;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.pais{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family:$secondTypo;
+    background-color: $colorLetra;
+    color:$colorTextos;
+}
+.pie{
+    text-align: center;
+    background-color: $colorLetra;
+    color: $colorTextos;
+    width: 100%;
+    height: auto;
+    font-family: $mainTipo;
+    margin-top: 10%;
 }
