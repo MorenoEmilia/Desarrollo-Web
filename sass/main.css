@@ -89,6 +89,29 @@ body {
   margin-right: 1%;
 }
 
+.accordion-button {
+  background-color: rgb(24, 0, 0);
+  font-family: "DM Serif Display", serif;
+  color: bisque;
+}
+
+.accordion-body {
+  background-color: bisque;
+  color: rgb(24, 0, 0);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.accordion-flush {
+  width: 40%;
+  align-items: center;
+  margin-left: 30%;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgb(182, 0, 5);
+  color: bisque;
+}
+
 .formYinput {
   text-align: center;
 }

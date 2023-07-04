@@ -44,6 +44,7 @@ body{
     box-shadow: 0px 0px 30px;
 }
 
+
 .louisCarre{
     display: grid;
     grid-template-columns: 
@@ -102,6 +103,30 @@ body{
     margin-left: 1%;
     margin-right: 1%;
 }
+
+.accordion-button{
+    background-color: $colorLetra;
+    font-family: $mainTipo;
+    color: $colorTextos;
+    
+}
+.accordion-body{
+    background-color: $colorTextos;
+    color: $colorLetra;
+    font-family: $secondTypo;
+}
+.accordion-flush{
+    width: 40%;
+    align-items: center;
+    margin-left: 30%;
+    
+}
+.accordion-button:not(.collapsed) {
+    background-color: $fondo;
+    color:$colorTextos;
+    
+}
+
 .formYinput{
     text-align: center;
 }
