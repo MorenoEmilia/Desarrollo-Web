@@ -164,47 +164,25 @@ body {
 }
 
 .titulo {
-  font-size: 50px;
+  font-size: 2rem;
   color: bisque;
   font-family: "DM Serif Display", serif;
 }
 
 .subtitulo {
-  font-size: 30px;
+  font-size: 1rem;
   color: bisque;
   font-family: "Courier New", Courier, monospace;
-}
-
-.footer-links {
-  margin-bottom: 25px;
-  font-weight: 500;
-  border-bottom: 2px solid bisque;
-  padding-bottom: 10px;
-  display: inline-block;
-  text-align: center;
-}
-
-.footer-links h4 {
-  font-family: "Courier New", Courier, monospace;
-  color: bisque;
-  text-align: center;
-  font-size: 30px;
-}
-
-.social-link {
-  margin-left: 43%;
 }
 
 .social-link a {
   display: inline-block;
-  min-height: 40px;
   width: 40px;
   background-color: bisque;
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
   color: rgb(24, 0, 0);
-  margin: 0 10px 10px 0;
   transition: all 0.5s ease;
 }
 
